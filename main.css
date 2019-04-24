@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.brand.logo {
+  width: 4%;
+  height:auto;
+  margin-bottom: inherit;
+}
+
+.main-header {
+  background-image: url("https://cdn.vehiclemall.com/medialibrary/dealergroup/845/slideshow/619/36ddf56c-ddbe-3ece-eb7812ccd9ae74a3.jpg");
+  height: 500px;
+  background-size: cover;
+  text-align: center;
+}
+
+h2 {
+  padding: 40px 0;
+  font-size: 41px;
+}
+
+.main-header h1 {
+  font-size: 72px;
+  margin-top: 0;
+  padding-top: 8%;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.car-grid {
+  display: inline-grid;
+  grid-template: 200px / 400px 400px 400px;
+  grid-gap: 10px;
+}
+
+.car-grid div {
+  background-image: url("http://mondeorijders.com/wp-content/uploads/2017/10/Picture4.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.grid-container {
+  text-align: center;
+}
+
+.main-button {
+  background: red;
+  padding: 1% 1.8%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.main-button:hover {
+  background: pink;
+}
+
+.info-grid {
+  padding-top: 30px;
+  display: inline-grid;
+  grid-template: 650px / 500px 500px;
+  grid-gap: 15px;
+}
+
+.info-grid div:nth-child(2) {
+  background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2016-09/6/13/asset/buzzfeed-prod-web02/sub-buzz-10751-1473181205-1.jpg?downsize=700:*&output-format=auto&output-quality=auto");
+  background-position: 50% 40%;
+  background-size: cover;
+}
+
+#navbar {
+  padding-left: 5%;
+  padding: 0.6%;
+  position: fixed;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #858585;
+
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0 30px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #333;
+}
