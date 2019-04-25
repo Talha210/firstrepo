@@ -3,6 +3,45 @@ body {
   font-family: sans-serif;
 }
 
+.contact-section {
+  padding-top: 75px;
+}
+
+.contact-form {
+  padding-left: 100px;
+}
+
+.contact-form input[type='submit'] {
+  background: red;
+  border: 1px solid darkred;
+  color: white;
+  padding: 1% 1.5%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact-form input[type='submit']:hover {
+  background: darkred;
+}
+
+.contact-form textarea {
+  border-radius: 5px;
+  margin-top: 15px;
+  font-family: sans-serif;
+}
+
+.contact-form input[type='text'] {
+  font-size: 20px;
+  width: 355px;
+  padding: 9px 10px 9px 2px;
+  border-radius: 3px;
+}
+
+.contact-section h1 {
+  text-align: left;
+  padding-left: 99px;
+}
+
 .brand.logo {
   width: 4%;
   height:auto;
